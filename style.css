@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(104, 106, 107);
+    text-align: center;
+}
+
+ul{
+    list-style-type: square;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    font-size: 18px;
+    margin: 10px 0;
+}

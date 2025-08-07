@@ -1,0 +1,473 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(3, 3, 83);
+}
+
+.flex-container > div {
+  background-color: #f3efef;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  color: black;
+}
+
+
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(3, 3, 83);
+}
+
+.flex-container-column div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.flex-container-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(3, 3, 83);
+}
+
+.flex-container-row-reverse div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+
+.flex-container-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgb(3, 3, 83);
+}
+
+.flex-container-column-reverse div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+
+.flex-wrap-nowrap{
+    display: flex;
+    flex-direction: nowrap;
+    background-color: rgb(3, 83, 39);
+}
+
+.flex-wrap-nowrap div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.flex-wrap-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(3, 83, 39);
+}
+
+.flex-wrap-wrap > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.flex-wrap-reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-color: rgb(3, 83, 39);
+}
+
+.flex-wrap-reverse > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.flex-wrap-reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-color: rgb(3, 83, 39);
+}
+
+.flex-wrap-reverse > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+
+.flex-wrap-flex-flow {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: rgb(3, 83, 39);
+}
+
+.flex-wrap-flex-flow > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+
+.justify-content {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(83, 3, 16);
+}
+
+.justify-content > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(83, 3, 16);
+}
+
+.flex-start > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.flex-end{
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(83, 3, 16);
+}
+
+.flex-end > div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.space-around{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(83, 3, 16);
+}
+
+
+.space-around div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(83, 3, 16);
+}
+
+.space-between div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.space-evenly{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(83, 3, 16);
+}
+
+.space-evenly div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.align-items {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  background-color: rgb(70, 2, 77);
+}
+
+.align-items div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.a-iflex-start {
+  display: flex;
+  height: 200px;
+  align-items: flex-start;
+  background-color: rgb(70, 2, 77);
+}
+
+.a-iflex-start div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.a-iflex-end {
+  display: flex;
+  height: 200px;
+  align-items: flex-end;
+  background-color: rgb(70, 2, 77);
+}
+
+.a-iflex-end div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.stretch{
+  display: flex;
+  height: 200px;
+  align-items: stretch;
+  background-color: rgb(70, 2, 77);
+}
+
+.stretch div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.baseline {
+  display: flex;
+  height: 200px;
+  align-items: baseline;
+  background-color: rgb(70, 2, 77);
+}
+
+.baseline div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.center{
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: #474103;
+}
+
+.center div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.content-stretch{
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: stretch;
+  background-color: #474103;
+}
+
+.content-stretch div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.content-flex-start{
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: #474103;
+}
+
+.content-flex-start div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+
+.content-flex-end{
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  background-color: #474103;
+}
+
+.content-flex-end div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+
+.content-space-between{
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-between;
+  background-color: #474103;
+}
+
+.content-space-between div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.content-space-around{
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  background-color: #474103;
+}
+
+.content-space-around div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.content-space-evenly{
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  background-color: #474103;
+}
+
+.content-space-evenly div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: black;
+}
+
+.perfect-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: rgb(77, 29, 2);
+}
+
+.perfect-center div {
+  background-color: #f1f1f1;
+  color: rgb(15, 15, 15);
+  width: 100px;
+  height: 100px;
+}
+

@@ -1,0 +1,43 @@
+.flex-direction{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+}
+.flex-item-left{
+    background-color: rgb(71, 120, 184);
+    padding: 10px;
+    flex: 50%;
+    color: white;
+}
+
+.flex-item-right{
+    background-color: rgb(65, 1, 65);
+    padding: 10px;
+    flex: 50%;
+    color: white;
+}
+
+@media (max-width: 800px) {
+  .flex-direction {
+    flex-direction: column;
+  }
+}   /*want website to be responsive — 
+       meaning it looks and works well on smaller screens like phones or tablets.*/
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2px;
+}       
+
+.column{
+    flex: 25%;
+    max-width:30%;
+    padding: 0 4px;
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}

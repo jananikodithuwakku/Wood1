@@ -1,0 +1,73 @@
+.container{
+    background-color: #051249;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.5;
+    gap: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0.5;
+    gap: 10px;
+}
+
+.cell{
+    flex-grow: 1;
+}
+
+.color-1{
+    background-color: #418eac;
+}
+
+.color-2{
+    background-color: #2d67ef;
+}
+
+.color-3{
+    background-color: #c34dbfac;
+}
+
+.color-4{
+    background-color: #e08a3d;
+}
+
+.color-5{
+    background-color: #376572;
+}
+
+.color-6{
+    background-color: #897775;
+}
+
+.color-7{
+    background-color: #711ec4;
+}
+
+.color-8{
+    background-color: #bf5351;
+}
+
+.color-9{
+    background-color: #878b8c;
+}
+
+.size-1{
+    flex-grow: 0.2;
+}
+
+.size-2{
+    flex-grow: 0.4;
+}
+
+.size-3{
+    flex-grow: 0.6;
+}
+

@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(1, 1, 54);
+  height: 100vh;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  gap: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.square {
+  width: 190px;
+  height: 190px;
+}
+
+.rectangle {
+  height: 90px;
+  width: 300px;
+}
+
+.small_rectangle {
+  width: 190px;
+  height: 90px;
+}
+
+.small_square {
+  width: 90px;
+  height: 90px;
+}
+
+.big_rectangle {
+  width: 500px;
+  height: 90px;
+}
+
+
+.light_blue {
+  background-color: rgb(23, 138, 146);
+}
+
+.blue {
+  background-color: rgb(39, 78, 206);
+}
+
+.pink {
+  background-color: rgb(226, 43, 186);
+}
+
+.orange {
+  background-color: rgb(202, 118, 39);
+}
+
+.green {
+  background-color: rgb(2, 105, 71);
+}
+
+.brown {
+  background-color: rgb(100, 54, 54);
+}
+
+.purple {
+  background-color: rgb(67, 22, 109);
+}
+
+.light_ping {
+  background-color: rgb(214, 97, 68);
+}
+
+.ash {
+  background-color: rgb(120, 126, 124);
+}

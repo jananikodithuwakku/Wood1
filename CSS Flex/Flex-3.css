@@ -1,0 +1,110 @@
+.order{
+  display: flex;
+  align-items: stretch;
+  background-color: #011f0d;
+}
+
+.order div {
+  background-color: rgb(243, 247, 244);
+  color: rgb(14, 13, 13);
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-grow{
+  display: flex;
+  align-items: stretch;
+  background-color: #011f0d;
+}
+
+.flex-grow div {
+  background-color: rgb(243, 247, 244);
+  color: rgb(14, 13, 13);
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-shrink{
+  display: flex;
+  align-items: stretch;
+  background-color: #011f0d;
+}
+
+.flex-shrink > div {
+  background-color: rgb(248, 249, 250);
+  color: rgb(15, 15, 15);
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-basis{
+  display: flex;
+  align-items: stretch;
+  background-color: #011f0d;
+}
+
+.flex-basis div {
+  background-color: rgb(248, 249, 250);
+  color: rgb(15, 15, 15);
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex{
+  display: flex;
+  align-items: stretch;
+  background-color: #011f0d;
+}
+
+.flex div {
+  background-color: rgb(248, 249, 250);
+  color: rgb(15, 15, 15);
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.align-self{
+  display: flex;
+  height: 200px;
+  background-color: #011f0d;
+}
+
+.align-self > div {
+  background-color: rgb(248, 249, 250);
+  color: rgb(15, 15, 15);
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.start-end{
+  display: flex;
+  height: 200px;
+  background-color: #011f0d;
+}
+
+.start-end > div {
+  background-color: rgb(248, 249, 250);
+  color: rgb(15, 15, 15);
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}

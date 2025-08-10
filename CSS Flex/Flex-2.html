@@ -1,0 +1,354 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex 2</title>
+    <link rel="stylesheet" href="Flex-2.css">
+</head>
+<body>
+    <nav>
+            <ul class="navbar">
+                <li><a href="../All_Works.html">Back to Home</a></li>
+            </ul>
+        </nav>
+    <h1>Flex-direction</h1>
+    <h2>Row (from left to right):</h2> <!--Row-->
+    <div class="flex-container">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+
+    <h2>Column (from top to bottom):</h2>  <!--Column-->
+    <div class="flex-container-column">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+
+    <h2>Row-reverse (but from right to left):</h2>    <!--Row-reverse-->
+        <div class="flex-container-row-reverse">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+
+    <h2>Column-reverse (but from bottom to top):</h2>     <!--Column-reverse-->
+    <div class="flex-container-column-reverse">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+
+    <h1>Flex-wrap</h1>
+    <h2>nowrap</h2>
+    <div class="flex-wrap-nowrap">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>I</div>
+        <div>J</div>
+        <div>L</div>
+        <div>K</div>
+        <div>L</div>
+        <div>M</div>
+    </div>
+
+    <h2>Wrap</h2>
+    <div class="flex-wrap-wrap">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>I</div>
+        <div>J</div>
+        <div>L</div>
+        <div>K</div>
+        <div>L</div>
+        <div>M</div>
+        <div>J</div>
+        <div>L</div>
+        <div>K</div>
+        <div>L</div>
+        <div>M</div>
+    </div>
+   
+
+    <h2>Wrap-reverse</h2>
+    <div class="flex-wrap-reverse">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>I</div>
+        <div>J</div>
+        <div>L</div>
+        <div>K</div>
+        <div>L</div>
+        <div>M</div>
+        <div>J</div>
+        <div>L</div>
+        <div>K</div>
+        <div>L</div>
+        <div>M</div>
+    </div>
+
+
+    <h2>flex-flow</h2>
+    <div class="flex-wrap-flex-flow">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>I</div>
+        <div>J</div>
+        <div>L</div>
+        <div>K</div>
+        <div>L</div>
+        <div>M</div>
+        <div>J</div>
+        <div>L</div>
+        <div>K</div>
+        <div>L</div>
+        <div>M</div>
+    </div>
+
+
+    <h1>Justify-content</h1>
+    <h2>Contact <br>The center value positions the flex items in the center of the container:</h2>
+    <div class="justify-content">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+
+    <h2>Flex-start</h2>
+    <h3>The flex-start value positions the flex items at the beginning of the container</h3>
+    <div class="flex-start">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+
+    <h2>Flex-end</h2>
+    <h3>The flex-end value positions the flex items at the end of the container:</h3>
+    <div class="flex-end">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+
+
+    <h2>Space-around</h2>
+    <h3>The space-around value displays the flex items with space around them:</h3>
+    <div class="space-around">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+
+
+    <h2>Space-between</h2>
+    <h3>The space-between value displays the flex items with space between them:</h3>
+    <div class="space-between">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+
+
+    <h2>Space-evenly</h2>
+    <h3>The space-evenly value displays the flex items with equal space around them</h3>
+    <div class="space-evenly">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+
+    <h1>Align-items</h1>
+    <h2>Center</h2>
+    <h3>The center value positions the flex items in the middle of the container:</h3>
+    <div class="align-items">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+
+    <h2>flex-start</h2>
+    <h3>The flex-start value positions the flex items at the top of the container:</h3>
+    <div class="a-iflex-start">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+
+    <h2>flex-end</h2>
+    <h3>The flex-end value positions the flex items at the bottom of the container:</h3>
+    <div class="a-iflex-end">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+
+    <h2>stretch</h2>
+    <h3>The stretch value stretches the flex items to fill the container (this is equal to "normal" which is default)</h3>
+    <div class="stretch">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+
+    <h2>Baseline</h2>
+    <h3>The baseline value positions the flex items at the baseline of the container:</h3>
+    <div class="baseline">
+        <div><h1>A</h1></div>
+        <div><h6>B</h6></div>
+        <div><h3>C</h3></div>
+        <div><small>D</small></div>
+    </div>
+
+    <h1>Align-content</h1>
+    <h2>Center</h2>
+    <h3>With center, the flex lines are packed toward the center of the container:</h3>
+    <div class="center">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>I</div>
+        <div>J</div>
+    </div>
+
+    <h2>stretch</h2>
+    <h3>With stretch, the flex lines stretch to take up the remaining space of the container</h3>
+    <div class="content-stretch">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>I</div>
+        <div>J</div>
+    </div>
+
+    <h2>flex-start</h2>
+    <h3>With flex-start, the flex lines are packed toward the start of the container</h3>
+    <div class="content-flex-start">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>I</div>
+        <div>J</div>
+    </div>
+
+    <h2>flex-end</h2>
+    <h3>With flex-end, the flex lines are packed toward the end of the container</h3>
+    <div class="content-flex-end">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>I</div>
+        <div>J</div>
+    </div>
+
+    <h2>space-between</h2>
+    <h3>With space-between, the space between the flex lines are equal, but the first item is flush with the start edge of the container, and the last item is flush with the end edge of the container</h3>
+    <div class="content-space-between">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>I</div>
+        <div>J</div>
+        <div>L</div>
+        <div>K</div>
+        <div>L</div>
+        <div>M</div>
+        <div>J</div>
+        <div>L</div>
+        <div>K</div>
+        <div>L</div>
+        <div>M</div>
+    </div>
+
+    <h2>space-around</h2>
+    <h3>With space-around, the space between the flex lines are equal, but the space before the first item and after the last item is set to half of the space between the flex lines</h3>
+    <div class="content-space-around">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>I</div>
+        <div>J</div>
+        <div>L</div>
+        <div>K</div>
+        <div>L</div>
+        <div>M</div>
+    </div>
+
+    <h2>space-evenly</h2>
+    <h3>With space-evenly, the flex lines are evenly distributed in the flex container, with equal space on top, bottom and between:</h3>
+    <div class="content-space-evenly">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>I</div>
+        <div>J</div>
+        <div>L</div>
+        <div>K</div>
+    </div>
+
+    <h1>Perfect Centering</h1>
+    <h3>Set both the justify-content and align-items properties to center, and the flex item will be perfectly centered</h3>
+    <div class="perfect-center">
+        <div></div>
+    </div>
+</body>
+</html>

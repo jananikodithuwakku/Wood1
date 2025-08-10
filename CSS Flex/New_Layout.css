@@ -1,0 +1,39 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    gap: 10px;
+}
+
+.row{
+    flex-direction: row;
+    flex: 50%;
+    display: flex;
+    gap: 10px;
+}
+
+.column{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.color-1{
+    background-color: purple;
+}
+
+.color-2{
+    background-color: rgb(169, 223, 206);
+}
+
+.color-3{
+    background-color: rgb(6, 56, 194);
+}
